@@ -1,6 +1,6 @@
 // --- Typewriter effect (optional for hero section) ---
 const typewriter = document.getElementById("typewriter");
-const text = "Hi, I'm XYZ 👋";
+const text = "Hi, I'm Neeraj Bisht👋";
 let idx = 0;
 
 function type() {
@@ -65,16 +65,16 @@ function openModal(project) {
   modal.style.display = "block";
 
   if(project === 'portfolio') {
-    modalImg.src = "images/Profile.JPG"; // your Profile image
+    modalImg.src = "Profile.JPG"; // your Profile image
     caption.innerHTML = "Portfolio Website";
   } else if(project === 'sales') {
-    modalImg.src = "images/screenshot_Dashboard.jpg"; // your Excel Dashboard screenshot
+    modalImg.src = "screenshot_Dashboard.jpg"; // your Excel Dashboard screenshot
     caption.innerHTML = "Sales Dashboard Project";
   } else if(project === 'covid') {
-    modalImg.src = "images/Dashboardpng.PNG"; // your Power BI Dashboard screenshot
+    modalImg.src = "Dashboardpng.PNG"; // your Power BI Dashboard screenshot
     caption.innerHTML = "COVID-19 Dashboard Project";
   } else if(project === 'bmi') {
-    modalImg.src = "images/Bmi_sc.PNG"; // your BMI screenshot
+    modalImg.src = "Bmi_sc.PNG"; // your BMI screenshot
     caption.innerHTML = "BMI Calculator Project";
   }
 }
@@ -83,3 +83,4 @@ function openModal(project) {
 function closeModal() {
   document.getElementById("modal").style.display = "none";
 }
+
